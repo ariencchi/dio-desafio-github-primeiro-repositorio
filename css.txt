@@ -1,0 +1,33 @@
+CSS
+
+position: - static (parado)
+		- relativo (ponto inicial continua no mesmo lugar, mas se mexe)
+		- absolute (ponto inicial se desloca com o objeto) -> dentro da pág toda (não respeita div)
+		
+float: faz o texto se "adaptar" as imagens (como se fosse inline-block)
+** afeta o projeto todo ** (precisa limpar com ~clear~)
+flutua a cima de todos os elementos
+	 - top
+	 - left
+	 - right
+	 - bottom
+	 
+display: grid -> libera usar a propriedade gap (espaçamento entre elementos)
+
+
+border-sizing: border-box
+"fusiona" o conteúdo com o padding + borda
+
+z-index (só dá pra usar qdo o position for absolute) -> sobreposição de elementos (camadas)
+
+overflow: hidden (esconde o que ultrapassa os limites da div)
+
+hover: quando passa o mouse em cima do elemento
+active: faz algo enquanto o botão click do mouse está pressionado
+principal diferença entre float e inline-block: o texto "abraça" a imagem, enquanto no inline-block ambos ficam lado a lado
+
+main > p (pega o primeiro filho)
+img + p (pega o primeiro irmão)
+img ~p (pega todos do p em diante)
+. principal p:not(#missao) (pega tudo menos o #missao)
+

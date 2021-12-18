@@ -1,0 +1,30 @@
+tags:  - article
+ 	 - section
+ 	 - div
+ 	 - span (uma "div" de linha)
+
+id="" -> não pode repetir, é único (#)
+class="" -> pode repetir (.)
+
+<html>
+<head> info
+</head>
+
+<body> corpo
+<header> cabeçalho
+</header>
+<main> principal
+<section> sessões dentro do main (geralmente primeiro filho é uma h2) -> geralmente o conteúdo é texto
+<div> bloco que geralmente contém imagens
+<p>
+<span> "div" de uma linha só (genérico)</span>
+</p>
+</div>
+</section>
+</main>
+<footer> rodapé
+</footer>
+</body>
+</html>
+
+** <div></div> -> encaixa em qlqr lugar
